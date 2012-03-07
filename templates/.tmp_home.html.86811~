@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Shared Space</title>
+	<link rel="stylesheet" href="static/css/reset.css" />
+	<link rel="stylesheet" href="static/css/main.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="main-content">
+		<div id="left-sidebar">
+			<div id="projects">
+				<div class="project"><div class="color-code"></div>Personal</div>
+				<div class="project selected"><div class="color-code code-1"></div>Sprred</div>
+				<div class="project"><div class="color-code code-2"></div>Newtiny</div>
+			</div>
+		</div>
+		<div id="content">
+			<ul id="todos">
+				<li taskid="1"><textarea class="editable">Task 1</textarea></li>
+				<li taskid="2"><textarea class="editable">Task 2</textarea></li>
+				<li taskid="3"><textarea class="editable">Task 3</textarea></li>
+			</ul>
+		</div>
+		<div class="reset"></div>
+	</div>
+
+
+<script src="static/js/queue.compressed.js"></script>
+<script src="static/js/application.js"></script>
+</body>
+</html>

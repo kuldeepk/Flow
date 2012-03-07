@@ -1,0 +1,15 @@
+body { background-color: #FFF; border-top:5px solid #637487; }
+.reset { clear: both; }
+#main-content { width:1000px; height:1000px; margin:80px auto 0; background-color: #FFF; border:1px solid #DDD; border-radius:5px; }
+#left-sidebar { width:220px; height:1000px; float:left; padding-top:20px; }
+#projects .project { margin-top:5px; padding:5px 0 5px 20px; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#333; cursor:pointer; }
+#projects .project.selected, #projects div.project:hover { background-color:#E9F3F3; }
+#content { float:left; width:770px; height:1000px; box-shadow:-3px 2px 4px rgba(0, 0, 0, 0.1); }
+#todos { margin:50px 60px; list-style:disc; font-family:Arial, Helvetica, sans-serif; }
+#todos .task { width:100%; padding:0px; margin-bottom:3px; }
+#todos .task .bullet { float:left; width:8px; height:8px; margin-top:8px; margin-right:8px; background-color:#777; border-radius:10px; }
+#todos .editable { float:left; width:630px; height:24px; padding:2px 5px; margin:0; border:none; outline:none; resize: none; color:#333; font-family:Arial, Helvetica, sans-serif; font-size:16px; }
+#todos .task .editable:hover, #todos .task .editable:focus { background-color:#E9F3F3; }
+.color-code { float:left; width:15px; height:15px; margin-right:8px; background-color:#AAA; border-radius:2px; }
+.code-1 { background-color:#51A7CF; }
+.code-2 { background-color:#BACF51; }
